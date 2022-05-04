@@ -4,7 +4,10 @@ Projeto final do curso de Javascript completo
 Curso terminado no dia 04/05/2022
 Curso feito na https://origamid.com
 
-## :hammer: Funcionalidades do projeto
+## :hammer: Funcionalidades do projeto!
+
+- `Modal`: Modal Criado para efetuar o login no site
+<img src="https://user-images.githubusercontent.com/24578339/166842718-8d4e8b2d-9bf7-4855-94f6-92fe9ae602db.png"/>
 
 - `Accordion`:  Usado nas perguntas frequentes
 <img src="https://user-images.githubusercontent.com/24578339/166838490-238e0384-bb10-4e4b-b45c-306149d7f6a4.png"/>
