@@ -4,6 +4,12 @@ Projeto final do curso de Javascript completo
 Curso terminado no dia 04/05/2022
 Curso feito na https://origamid.com
 
+<h2 align="center">📁 Acesso ao projeto</h2>
+
+<h2 align="center">🛠️ Abrir e rodar o projeto</h2>
+
+**<a href="https://reveredy.github.io/Animais-fantasticos/" target="_blank">Você pode ver o projeto final rodando aqui no github pages</a>**
+
 ## :hammer: Funcionalidades do projeto!
 
 - `Modal`: Modal Criado para efetuar o login no site
