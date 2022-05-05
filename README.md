@@ -1,16 +1,31 @@
-<h1 align="center">Animais-fantasticos</h1>
-Projeto final do curso de Javascript completo
+<h1 align="center">Animais Fantásticos</h1>
+<h3>Projeto final do curso de Javascript completo ES6+</h3>
+<p>Curso e projeto concluido em 04/05/2022</p>
+<p>Curso feito na https://origamid.com</p>
+<hr/>
 
-Curso terminado no dia 04/05/2022
-Curso feito na https://origamid.com
+## Autor
+[<img src="https://user-images.githubusercontent.com/24578339/166850069-5cebc131-c833-4c8c-9a36-e7d9cf11fb22.jpeg" width=115><br><sub>Carlos André Albanus</sub>](https://github.com/reveredy)
+| :---: |
+<hr/>
+
+<h2 align="center">✔ Tecnologias utilizadas</h2>
+
+- `HTML`
+
+- `CSS`
+
+- `Javascript`
+
+<hr/>
 
 <h2 align="center">📁 Acesso ao projeto</h2>
 
-<h2 align="center">🛠️ Abrir e rodar o projeto</h2>
+**<p align="center"><a href="https://reveredy.github.io/Animais-fantasticos/">Você pode ver o projeto final rodando aqui no github pages</a></p>**
 
-**<a href="https://reveredy.github.io/Animais-fantasticos/" target="_blank">Você pode ver o projeto final rodando aqui no github pages</a>**
+<hr/>
 
-## :hammer: Funcionalidades do projeto!
+<h2 align="center">:hammer: Funcionalidades do projeto!</h2>
 
 - `Modal`: Modal Criado para efetuar o login no site
 <img src="https://user-images.githubusercontent.com/24578339/166842718-8d4e8b2d-9bf7-4855-94f6-92fe9ae602db.png"/>
