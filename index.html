@@ -29,7 +29,11 @@
           </li>
           <li><a href="#faq">faq</a></li>
           <li><a href="#contato">contato</a></li>
-          <li><a data-modal="abrir" href="login.html">Login ⤍</a></li>
+          <li>
+            <a data-modal="abrir" href="login.html"
+              >Login <span class="arrow-black"></span
+            ></a>
+          </li>
         </ul>
       </nav>
       <section class="grid-section animais" data-anime="scroll" id="animais">
@@ -51,7 +55,7 @@
             <img src="img/arara2.jpg" alt="" />
           </li>
         </ul>
-        <section class="animais-descricao" data-tab="content">
+        <div class="animais-descricao" data-tab="content">
           <article data-anime="show-right">
             <h2>Onça Pintada</h2>
             <p>
@@ -216,71 +220,88 @@
               semelhantes ao de outras araras.
             </p>
           </article>
-        </section>
-        <section class="grid-section faq" data-anime="scroll" id="faq">
-          <h1 class="titulo">FAQ</h1>
-          <dl class="faq-lista" data-anime="accordion">
-            <dt>Qual a idade dos animais?</dt>
-            <dd>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              numquam error quo! Est molestias debitis numquam enim laborum
-            </dd>
-            <dt>Eles são fantásticos?</dt>
-            <dd>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              accusamus sed voluptatem expedita, optio veritatis tempore.
-            </dd>
-            <dt>Qual a diferença?</dt>
-            <dd>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              ad facilis delectus officiis mollitia nobis!
-            </dd>
-            <dt>Como proteger?</dt>
-            <dd>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-              porro veritatis saepe non molestias optio eos! In minima eum
-              culpa.
-            </dd>
-          </dl>
-        </section>
-        <section class="grid-section numeros" data-anime="scroll">
-          <h1 class="titulo">Números</h1>
-          <div class="numeros-grid"></div>
-        </section>
-        <section class="grid-section contato" data-anime="scroll" id="contato">
-          <h1 class="titulo">Contato</h1>
-          <figure
-            class="mapa"
-            data-tooltip
-            aria-label="Endereco próximo ao estacionamento"
-          >
-            <img src="img/mapa.jpg" alt="" />
-          </figure>
-          <ul class="dados">
-            <li>
-              <a href="https://www.linkedin.com/in/carlos-andre-albanus/"
-                >LinkedIn/Reveredy</a
-              >
-            </li>
-            <li>+55 (51) 99999-9999</li>
-            <li>Av. dos Estado, 4888</li>
-            <li>Balneário Camboriú - SC</li>
-            <li>
-              Doe <span class="btc-preco">0</span> Bitcoins para nos ajudar
-            </li>
-            <li data-semana="1,2,3,4,5" data-horario="8,18" id="funcionamento">
-              Seg à Sex das 8 às 18
-            </li>
-          </ul>
-        </section>
-        <footer class="copy">
-          <p>Todos os direitos reservados.</p>
-        </footer>
+        </div>
       </section>
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>Qual a idade dos animais?</dt>
+          <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            numquam error quo! Est molestias debitis numquam enim laborum
+          </dd>
+          <dt>Eles são fantásticos?</dt>
+          <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            accusamus sed voluptatem expedita, optio veritatis tempore.
+          </dd>
+          <dt>Qual a diferença?</dt>
+          <dd>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero ad
+            facilis delectus officiis mollitia nobis!
+          </dd>
+          <dt>Como proteger?</dt>
+          <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit porro
+            veritatis saepe non molestias optio eos! In minima eum culpa.
+          </dd>
+        </dl>
+      </section>
+      <section class="grid-section galeria" data-anime="scroll">
+        <ul class="custom-controls">
+          <li><img src="img/slide/foto1-thumb.jpg" /></li>
+          <li><img src="img/slide/foto2-thumb.jpg" /></li>
+          <li><img src="img/slide/foto3-thumb.jpg" /></li>
+          <li><img src="img/slide/foto4-thumb.jpg" /></li>
+          <li><img src="img/slide/foto5-thumb.jpg" /></li>
+          <li><img src="img/slide/foto6-thumb.jpg" /></li>
+        </ul>
+        <div class="slide-wrapper">
+          <ul class="slide">
+            <li><img src="img/slide/foto1.jpg" alt="" /></li>
+            <li><img src="img/slide/foto2.jpg" alt="" /></li>
+            <li><img src="img/slide/foto3.jpg" alt="" /></li>
+            <li><img src="img/slide/foto4.jpg" alt="" /></li>
+            <li><img src="img/slide/foto5.jpg" alt="" /></li>
+            <li><img src="img/slide/foto6.jpg" alt="" /></li>
+          </ul>
+        </div>
+      </section>
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid"></div>
+      </section>
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <figure
+          class="mapa"
+          data-tooltip
+          aria-label="Endereco próximo ao estacionamento"
+        >
+          <img src="img/mapa.jpg" alt="" />
+        </figure>
+        <ul class="dados">
+          <li>
+            <a href="https://www.linkedin.com/in/carlos-andre-albanus/"
+              >LinkedIn/Reveredy</a
+            >
+          </li>
+          <li>+55 (51) 99999-9999</li>
+          <li>Av. dos Estado, 4888</li>
+          <li>Balneário Camboriú - SC</li>
+          <li>Doe <span class="btc-preco">0</span> Bitcoins para nos ajudar</li>
+          <li data-semana="1,2,3,4,5" data-horario="8,18" id="funcionamento">
+            Seg à Sex das 8 às 18
+          </li>
+        </ul>
+      </section>
+      <footer class="copy">
+        <p>Todos os direitos reservados.</p>
+      </footer>
     </div>
     <section class="modal-container" data-modal="container">
       <div class="modal">
-        <button data-modal="fechar" class="fechar">X</button>
+        <button data-modal="fechar" class="fechar"></button>
         <form action="">
           <label for="email">Email</label>
           <input type="text" for="email" id="email" />
